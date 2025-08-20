@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test:wdiots": "npx wdio wdio.conf.ts",
+    "setup": "npm install",
     "test": "mocha ./build/test/*.js --no-timeout --exit",
     "clean": "if exist build rmdir /s /q build",
     "build": "npm run clean && tsc && copyfiles testconfig.json ./build",
