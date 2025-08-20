@@ -1,5 +1,5 @@
 {
-  "name": "wdio-e2e-test",
+  "name": "wdio-framework",
   "version": "1.0.0",
   "description": "E2E test project using WDIO",
   "main": "index.js",
